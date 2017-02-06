@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MapApp</string>
+    <string name="action_update_status">Update Status</string>
+    <string name="action_settings">Settings</string>
+    <string name="google_maps_key">AIzaSyBh5Vu2BnHcJXHF-4zMIS-LImc_tBDbmVU</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="login_prompt">Login or sign up to MapApp</string>
+    <string name="phone_number">Phone number</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="error_passwords_dont_match">Passwords don\'t match</string>
+    <string name="error_password_empty">Password field cannot be empty</string>
+    <string name="error_phone_empty">Phone field cannot be empty</string>
+    <string name="sign_out">Sign out</string>
+    <string name="settings_screen_name">Screen name</string>
+    <string name="settings_screen_name_justification">The screen name will only be displayed to people in a group with you</string>
+    <string name="change_password">Change password:</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="action_view_group_list">View groups</string>
+    <string name="action_reset_filter">View public locations</string>
+
+</resources>

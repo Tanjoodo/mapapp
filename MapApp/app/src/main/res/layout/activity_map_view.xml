@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.tanjoodo.mapapp.MapView"
+    android:id="@+id/map_view">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_map_view" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom|end"
+        android:paddingBottom="5pt"
+        android:paddingRight="5pt"
+        android:paddingEnd="5pt">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:padding="0px"
+            android:layout_marginBottom="5pt"
+            app:fabSize="mini"
+            android:alpha="0.7"
+            app:backgroundTint="#555"
+            app:rippleColor="#FFF"
+            android:src="@drawable/new_status" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="5pt"
+            android:padding="0px"
+            app:fabSize="normal"
+            android:alpha="0.7"
+            app:backgroundTint="#555"
+            app:rippleColor="#FFF"
+            android:src="@drawable/jump_location" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
